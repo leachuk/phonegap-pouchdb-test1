@@ -1,0 +1,642 @@
+TPhonegapPouchdbTest1
+v7
+r0
+t400640743.602176
+cCheck dependencies
+cProcessInfoPlistFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Info.plist PhonegapPouchdbTest1/PhonegapPouchdbTest1-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Script-304B58A110DAC018002A0835.sh
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/config.xml PhonegapPouchdbTest1/config.xml
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon-72.png PhonegapPouchdbTest1/Resources/icons/icon-72.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon.png PhonegapPouchdbTest1/Resources/icons/icon.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon@2x.png PhonegapPouchdbTest1/Resources/icons/icon@2x.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Capture.bundle PhonegapPouchdbTest1/Resources/Capture.bundle
+cCopyStringsFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/en.lproj/Localizable.strings PhonegapPouchdbTest1/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/es.lproj/Localizable.strings PhonegapPouchdbTest1/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.xib
+cCopyStringsFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/de.lproj/Localizable.strings PhonegapPouchdbTest1/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/se.lproj/Localizable.strings PhonegapPouchdbTest1/Resources/se.lproj/Localizable.strings
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Landscape@2x~ipad.png PhonegapPouchdbTest1/Resources/splash/Default-Landscape@2x~ipad.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Landscape~ipad.png PhonegapPouchdbTest1/Resources/splash/Default-Landscape~ipad.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Portrait@2x~ipad.png PhonegapPouchdbTest1/Resources/splash/Default-Portrait@2x~ipad.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Portrait~ipad.png PhonegapPouchdbTest1/Resources/splash/Default-Portrait~ipad.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default@2x~iphone.png PhonegapPouchdbTest1/Resources/splash/Default@2x~iphone.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default~iphone.png PhonegapPouchdbTest1/Resources/splash/Default~iphone.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-568h@2x~iphone.png PhonegapPouchdbTest1/Resources/splash/Default-568h@2x~iphone.png
+cCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon-72@2x.png PhonegapPouchdbTest1/Resources/icons/icon-72@2x.png
+cProcessPCH /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PhonegapPouchdbTest1-Prefix-cafutouagolvwvdtswpyxfyveivt/PhonegapPouchdbTest1-Prefix.pch.pth PhonegapPouchdbTest1/PhonegapPouchdbTest1-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/main.o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/AppDelegate.o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/MainViewController.o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004CC122E10000000000075FE0
+t1287725793
+s483296
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004CC129090000000000151F20
+t1287727369
+s1384224
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000004CC6583F00000000000106F0
+t1288067135
+s67312
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC1224400000000001C3D40
+t1287725636
+s1850688
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004CC127FC0000000000063DD0
+t1287727100
+s409040
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004CC6569800000000001AAD60
+t1288066712
+s1748320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC122D0000000000005BF20
+t1287725776
+s376608
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/CordovaLib/build/Debug-iphonesimulator/libCordova.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.h
+c000000005230382F00000000000005CD
+t1378891823
+s1485
+i<UIKit/UIKit.h>
+i<Cordova/CDVViewController.h>
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m
+c000000005230382F0000000000001250
+t1378891823
+s4688
+i"AppDelegate.h"
+i"MainViewController.h"
+i<Cordova/CDVPlugin.h>
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.h
+c000000005230382F00000000000004DA
+t1378891823
+s1242
+i<Cordova/CDVViewController.h>
+i<Cordova/CDVCommandDelegateImpl.h>
+i<Cordova/CDVCommandQueue.h>
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m
+c000000005230382F0000000000001275
+t1378891823
+s4725
+i"MainViewController.h"
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.xib
+c000000005230382E0000000000001759
+t1378891822
+s5977
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/PhonegapPouchdbTest1-Prefix.pch
+c000000005230382F00000000000003D9
+t1378891823
+s985
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/Capture.bundle
+c000000005230382F000000000000030E
+t1378891823
+s782
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/de.lproj/Localizable.strings
+c000000005230382F0000000000000485
+t1378891823
+s1157
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/en.lproj/Localizable.strings
+c000000005230382F0000000000000470
+t1378891823
+s1136
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/es.lproj/Localizable.strings
+c000000005230382F000000000000047D
+t1378891823
+s1149
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon-72.png
+c000000005230382F0000000000001350
+t1378891823
+s4944
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon-72@2x.png
+c000000005230382F0000000000002DBA
+t1378891823
+s11706
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon.png
+c000000005230382F0000000000000F3E
+t1378891823
+s3902
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon@2x.png
+c000000005230382F0000000000001EBD
+t1378891823
+s7869
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/se.lproj/Localizable.strings
+c000000005230382F0000000000000471
+t1378891823
+s1137
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-568h@2x~iphone.png
+c000000005230382F00000000000085B1
+t1378891823
+s34225
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005230382F0000000000012DF4
+t1378891823
+s77300
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Landscape~ipad.png
+c000000005230382F0000000000008877
+t1378891823
+s34935
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005230382F0000000000012B02
+t1378891823
+s76546
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Portrait~ipad.png
+c000000005230382F00000000000085E6
+t1378891823
+s34278
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default@2x~iphone.png
+c000000005230382F0000000000007323
+t1378891823
+s29475
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default~iphone.png
+c000000005230382F000000000000289A
+t1378891823
+s10394
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/config.xml
+c000000005230382E0000000000000BAB
+t1378891822
+s2987
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m
+c000000005230382F0000000000000466
+t1378891823
+s1126
+i<UIKit/UIKit.h>
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app
+t2
+s0
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app.dSYM
+t2
+s0
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Capture.bundle
+t1378947943
+s782
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-568h@2x~iphone.png
+t1378947943
+s34225
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Landscape@2x~ipad.png
+t1378947943
+s77300
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Landscape~ipad.png
+t1378947943
+s34935
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Portrait@2x~ipad.png
+t1378947943
+s76546
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Portrait~ipad.png
+t1378947943
+s34278
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default@2x~iphone.png
+t1378947943
+s29475
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default~iphone.png
+t1378947943
+s10394
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Info.plist
+t1378947942
+s1096
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/MainViewController.nib
+t1378947943
+s1231
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/PhonegapPouchdbTest1
+t2
+s0
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/PkgInfo
+t1378947942
+s8
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/config.xml
+t1378947942
+s2987
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/de.lproj/Localizable.strings
+t1378947943
+s256
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/en.lproj/Localizable.strings
+t1378947943
+s142
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/es.lproj/Localizable.strings
+t1378947943
+s308
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon-72.png
+t1378947942
+s4944
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon-72@2x.png
+t1378947943
+s11706
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon.png
+t1378947942
+s3902
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon@2x.png
+t1378947942
+s7869
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/se.lproj/Localizable.strings
+t1378947943
+s259
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/PhonegapPouchdbTest1.LinkFileList
+c00000000523113660000000000000231
+t1378947942
+s561
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Script-304B58A110DAC018002A0835.sh
+c00000000523113660000000000000470
+t1378947942
+s1136
+
+N/var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PhonegapPouchdbTest1-Prefix-cafutouagolvwvdtswpyxfyveivt/PhonegapPouchdbTest1-Prefix.pch.pth
+t1378947943
+s2784332
+
+NPhonegapPouchdbTest1/PhonegapPouchdbTest1-Info.plist
+c000000005230382F00000000000009DC
+t1378891823
+s2524
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies400640742#400640742#0(0"0(0#1#0"4328521728#0"0#
+
+CCompileC build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/AppDelegate.o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400640743.563290
+e400640743.602113
+r0
+xCompileC
+xbuild/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/AppDelegate.o
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m:28:
+o/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.h:30:9: fatal error: 'Cordova/CDVViewController.h' file not found
+o #import <Cordova/CDVViewController.h>
+o         ^
+o1 error generated.
+lSLF07#2@121"Compile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m400640743#400640743#0(387"In file included from /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m:28:/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.h:30:9: fatal error: 'Cordova/CDVViewController.h' file not found #import <Cordova/CDVViewController.h>         ^1 error generated.1(4@44"'Cordova/CDVViewController.h' file not found400640743#140#178#2(7@139"In file included from /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m:28:400640743#0#140#0(6@113"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m400584623#28#0#28#0#0"0(13@161"'Cordova/CDVViewController.h' file not found in /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.h400640743#18446744073709551615#0#0(6@113"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.h400584623#30#9#0#0#0"0(6@113"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.h400584623#30#9#0#0#18"'*' file not found0(0#0#113"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m4328521728#2948"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-generated-files.hmap -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-own-target-headers.hmap -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-all-target-headers.hmap -iquote /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-project-headers.hmap -F/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/usr/local/lib/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/UninstalledProducts/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources/i386 -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources -include /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PhonegapPouchdbTest1-Prefix-cafutouagolvwvdtswpyxfyveivt/PhonegapPouchdbTest1-Prefix.pch -c /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/AppDelegate.m -o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/AppDelegate.o1#
+
+CCompileC build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/MainViewController.o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400640743.564138
+e400640743.596113
+r0
+xCompileC
+xbuild/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/MainViewController.o
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m:28:
+o/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.h:28:9: fatal error: 'Cordova/CDVViewController.h' file not found
+o #import <Cordova/CDVViewController.h>
+o         ^
+o1 error generated.
+lSLF07#2@128"Compile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m400640743#400640743#0(401"In file included from /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m:28:/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.h:28:9: fatal error: 'Cordova/CDVViewController.h' file not found #import <Cordova/CDVViewController.h>         ^1 error generated.1(4@44"'Cordova/CDVViewController.h' file not found400640743#147#185#2(7@146"In file included from /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m:28:400640743#0#147#0(6@120"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m400584623#28#0#28#0#0"0(13@168"'Cordova/CDVViewController.h' file not found in /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.h400640743#18446744073709551615#0#0(6@120"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.h400584623#28#9#0#0#0"0(6@120"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.h400584623#28#9#0#0#18"'*' file not found0(0#0#120"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m4328521728#2962"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-generated-files.hmap -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-own-target-headers.hmap -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-all-target-headers.hmap -iquote /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-project-headers.hmap -F/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/usr/local/lib/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/UninstalledProducts/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources/i386 -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources -include /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PhonegapPouchdbTest1-Prefix-cafutouagolvwvdtswpyxfyveivt/PhonegapPouchdbTest1-Prefix.pch -c /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.m -o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/MainViewController.o1#
+
+CCompileC build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/main.o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400640743.562234
+e400640743.595890
+r0
+xCompileC
+xbuild/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/main.o
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m:31:5: error: unexpected '@' in program
+o     @autoreleasepool {
+o     ^
+o1 error generated.
+lSLF07#2@106"Compile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m400640743#400640743#0(188"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m:31:5: error: unexpected '@' in program     @autoreleasepool {     ^1 error generated.1(4@25"Unexpected '@' in program400640743#0#138#0(6@98"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m400584623#31#5#0#0#25"unexpected '@' in program0(0#0#98"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m4328521728#2926"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-generated-files.hmap -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-own-target-headers.hmap -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-all-target-headers.hmap -iquote /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-project-headers.hmap -F/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/usr/local/lib/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/UninstalledProducts/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources/i386 -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources -include /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PhonegapPouchdbTest1-Prefix-cafutouagolvwvdtswpyxfyveivt/PhonegapPouchdbTest1-Prefix.pch -c /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/main.m -o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/main.o1#
+
+CCompileXIB /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.xib
+s400640742.922752
+e400640743.371816
+r1
+xCompileXIB
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.xib
+lSLF07#2@62"CompileXIB PhonegapPouchdbTest1/Classes/MainViewController.xib400640742#400640743#0(0"0(0#0#122"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.xib4328521728#724"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/MainViewController.nib /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Classes/MainViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyStringsFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/de.lproj/Localizable.strings PhonegapPouchdbTest1/Resources/de.lproj/Localizable.strings
+s400640743.010852
+e400640743.108910
+r1
+xCopyStringsFile
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/de.lproj/Localizable.strings
+xPhonegapPouchdbTest1/Resources/de.lproj/Localizable.strings
+lSLF07#2@64"Copy PhonegapPouchdbTest1/Resources/de.lproj/Localizable.strings400640743#400640743#0(0"0(0#0#130"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/de.lproj/Localizable.strings4328521728#593"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary PhonegapPouchdbTest1/Resources/de.lproj/Localizable.strings --outdir /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/de.lproj0#
+
+CCopyStringsFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/en.lproj/Localizable.strings PhonegapPouchdbTest1/Resources/en.lproj/Localizable.strings
+s400640742.909282
+e400640743.035681
+r1
+xCopyStringsFile
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/en.lproj/Localizable.strings
+xPhonegapPouchdbTest1/Resources/en.lproj/Localizable.strings
+lSLF07#2@64"Copy PhonegapPouchdbTest1/Resources/en.lproj/Localizable.strings400640742#400640743#0(0"0(0#0#130"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/en.lproj/Localizable.strings4328521728#593"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary PhonegapPouchdbTest1/Resources/en.lproj/Localizable.strings --outdir /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/en.lproj0#
+
+CCopyStringsFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/es.lproj/Localizable.strings PhonegapPouchdbTest1/Resources/es.lproj/Localizable.strings
+s400640742.921482
+e400640743.038355
+r1
+xCopyStringsFile
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/es.lproj/Localizable.strings
+xPhonegapPouchdbTest1/Resources/es.lproj/Localizable.strings
+lSLF07#2@64"Copy PhonegapPouchdbTest1/Resources/es.lproj/Localizable.strings400640742#400640743#0(0"0(0#0#130"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/es.lproj/Localizable.strings4328521728#593"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary PhonegapPouchdbTest1/Resources/es.lproj/Localizable.strings --outdir /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/es.lproj0#
+
+CCopyStringsFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/se.lproj/Localizable.strings PhonegapPouchdbTest1/Resources/se.lproj/Localizable.strings
+s400640743.035791
+e400640743.128050
+r1
+xCopyStringsFile
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/se.lproj/Localizable.strings
+xPhonegapPouchdbTest1/Resources/se.lproj/Localizable.strings
+lSLF07#2@64"Copy PhonegapPouchdbTest1/Resources/se.lproj/Localizable.strings400640743#400640743#0(0"0(0#0#130"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/se.lproj/Localizable.strings4328521728#593"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary PhonegapPouchdbTest1/Resources/se.lproj/Localizable.strings --outdir /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/se.lproj0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Capture.bundle PhonegapPouchdbTest1/Resources/Capture.bundle
+s400640742.908446
+e400640743.010721
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Capture.bundle
+xPhonegapPouchdbTest1/Resources/Capture.bundle
+lSLF07#2@50"Copy PhonegapPouchdbTest1/Resources/Capture.bundle400640742#400640743#0(0"0(0#0#116"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/Capture.bundle4328521728#612"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/Capture.bundle /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-568h@2x~iphone.png PhonegapPouchdbTest1/Resources/splash/Default-568h@2x~iphone.png
+s400640743.046201
+e400640743.086977
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-568h@2x~iphone.png
+xPhonegapPouchdbTest1/Resources/splash/Default-568h@2x~iphone.png
+lSLF07#2@69"Copy PhonegapPouchdbTest1/Resources/splash/Default-568h@2x~iphone.png400640743#400640743#0(0"0(0#0#135"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-568h@2x~iphone.png4328521728#631"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-568h@2x~iphone.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Landscape@2x~ipad.png PhonegapPouchdbTest1/Resources/splash/Default-Landscape@2x~ipad.png
+s400640743.038608
+e400640743.087582
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Landscape@2x~ipad.png
+xPhonegapPouchdbTest1/Resources/splash/Default-Landscape@2x~ipad.png
+lSLF07#2@72"Copy PhonegapPouchdbTest1/Resources/splash/Default-Landscape@2x~ipad.png400640743#400640743#0(0"0(0#0#138"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Landscape@2x~ipad.png4328521728#634"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Landscape@2x~ipad.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Landscape~ipad.png PhonegapPouchdbTest1/Resources/splash/Default-Landscape~ipad.png
+s400640743.040870
+e400640743.097865
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Landscape~ipad.png
+xPhonegapPouchdbTest1/Resources/splash/Default-Landscape~ipad.png
+lSLF07#2@69"Copy PhonegapPouchdbTest1/Resources/splash/Default-Landscape~ipad.png400640743#400640743#0(0"0(0#0#135"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Landscape~ipad.png4328521728#631"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Landscape~ipad.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Portrait@2x~ipad.png PhonegapPouchdbTest1/Resources/splash/Default-Portrait@2x~ipad.png
+s400640743.042406
+e400640743.082640
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Portrait@2x~ipad.png
+xPhonegapPouchdbTest1/Resources/splash/Default-Portrait@2x~ipad.png
+lSLF07#2@71"Copy PhonegapPouchdbTest1/Resources/splash/Default-Portrait@2x~ipad.png400640743#400640743#0(0"0(0#0#137"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Portrait@2x~ipad.png4328521728#633"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Portrait@2x~ipad.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Portrait~ipad.png PhonegapPouchdbTest1/Resources/splash/Default-Portrait~ipad.png
+s400640743.043450
+e400640743.103517
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default-Portrait~ipad.png
+xPhonegapPouchdbTest1/Resources/splash/Default-Portrait~ipad.png
+lSLF07#2@68"Copy PhonegapPouchdbTest1/Resources/splash/Default-Portrait~ipad.png400640743#400640743#0(0"0(0#0#134"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Portrait~ipad.png4328521728#630"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default-Portrait~ipad.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default@2x~iphone.png PhonegapPouchdbTest1/Resources/splash/Default@2x~iphone.png
+s400640743.044387
+e400640743.078027
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default@2x~iphone.png
+xPhonegapPouchdbTest1/Resources/splash/Default@2x~iphone.png
+lSLF07#2@64"Copy PhonegapPouchdbTest1/Resources/splash/Default@2x~iphone.png400640743#400640743#0(0"0(0#0#130"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default@2x~iphone.png4328521728#626"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default@2x~iphone.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default~iphone.png PhonegapPouchdbTest1/Resources/splash/Default~iphone.png
+s400640743.045304
+e400640743.076590
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Default~iphone.png
+xPhonegapPouchdbTest1/Resources/splash/Default~iphone.png
+lSLF07#2@61"Copy PhonegapPouchdbTest1/Resources/splash/Default~iphone.png400640743#400640743#0(0"0(0#0#127"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default~iphone.png4328521728#623"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/splash/Default~iphone.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/config.xml PhonegapPouchdbTest1/config.xml
+s400640742.905815
+e400640742.920365
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/config.xml
+xPhonegapPouchdbTest1/config.xml
+lSLF07#2@36"Copy PhonegapPouchdbTest1/config.xml400640742#400640742#0(0"0(0#0#102"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/config.xml4328521728#598"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/config.xml /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon-72.png PhonegapPouchdbTest1/Resources/icons/icon-72.png
+s400640742.906467
+e400640742.922656
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon-72.png
+xPhonegapPouchdbTest1/Resources/icons/icon-72.png
+lSLF07#2@53"Copy PhonegapPouchdbTest1/Resources/icons/icon-72.png400640742#400640742#0(0"0(0#0#119"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon-72.png4328521728#615"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon-72.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon-72@2x.png PhonegapPouchdbTest1/Resources/icons/icon-72@2x.png
+s400640743.076704
+e400640743.093821
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon-72@2x.png
+xPhonegapPouchdbTest1/Resources/icons/icon-72@2x.png
+lSLF07#2@56"Copy PhonegapPouchdbTest1/Resources/icons/icon-72@2x.png400640743#400640743#0(0"0(0#0#122"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon-72@2x.png4328521728#618"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon-72@2x.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon.png PhonegapPouchdbTest1/Resources/icons/icon.png
+s400640742.907010
+e400640742.920877
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon.png
+xPhonegapPouchdbTest1/Resources/icons/icon.png
+lSLF07#2@50"Copy PhonegapPouchdbTest1/Resources/icons/icon.png400640742#400640742#0(0"0(0#0#116"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon.png4328521728#612"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CCpResource build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon@2x.png PhonegapPouchdbTest1/Resources/icons/icon@2x.png
+s400640742.907633
+e400640742.921369
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PhonegapPouchdbTest1.app/icon@2x.png
+xPhonegapPouchdbTest1/Resources/icons/icon@2x.png
+lSLF07#2@53"Copy PhonegapPouchdbTest1/Resources/icons/icon@2x.png400640742#400640742#0(0"0(0#0#119"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon@2x.png4328521728#615"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/Resources/icons/icon@2x.png /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app0#
+
+CGenerateDSYMFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app.dSYM /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/PhonegapPouchdbTest1
+r0
+
+CLd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/PhonegapPouchdbTest1 normal i386
+r0
+
+CPhaseScriptExecution "Copy www directory" /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Script-304B58A110DAC018002A0835.sh
+s400640742.748698
+e400640742.905748
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.131s
+ouser	0m0.049s
+osys	0m0.070s
+lSLF07#2@44"Run custom shell script 'Copy www directory'400640742#400640742#0(42"real	0m0.131suser	0m0.049ssys	0m0.070s3(13@14"real	0m0.131s400640742#1#14#0(1@0"0(13@14"user	0m0.049s400640742#15#14#0(1@0"0(13@13"sys	0m0.070s400640742#29#13#0(1@0"0(0#0#0"4328521728#20617"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER stewartleach    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build    setenv BUILD_ROOT /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH PhonegapPouchdbTest1.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH PhonegapPouchdbTest1.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/PhonegapPouchdbTest1.dst    setenv DWARF_DSYM_FILE_NAME PhonegapPouchdbTest1.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH PhonegapPouchdbTest1.app/Executables    setenv EXECUTABLE_FOLDER_PATH PhonegapPouchdbTest1.app    setenv EXECUTABLE_NAME PhonegapPouchdbTest1    setenv EXECUTABLE_PATH PhonegapPouchdbTest1.app/PhonegapPouchdbTest1    setenv FILE_LIST /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH PhonegapPouchdbTest1.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME PhonegapPouchdbTest1.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER PhonegapPouchdbTest1/PhonegapPouchdbTest1-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/include\" \"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/usr/local/lib/include\" \"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/UninstalledProducts/include\" \"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE PhonegapPouchdbTest1/PhonegapPouchdbTest1-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH PhonegapPouchdbTest1.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH PhonegapPouchdbTest1.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/PhonegapPouchdbTest1.dst/Users/stewartleach/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER stewartleach    setenv INSTALL_PATH /Users/stewartleach/Applications    setenv INSTALL_ROOT /tmp/PhonegapPouchdbTest1.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH PhonegapPouchdbTest1.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal/i386/PhonegapPouchdbTest1.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH PhonegapPouchdbTest1.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1084    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0804    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Objects-normal    setenv OBJROOT /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH PhonegapPouchdbTest1.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PkgInfo    setenv PKGINFO_PATH PhonegapPouchdbTest1.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PRODUCT_BUILD_VERSION 8C134    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 40200    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH PhonegapPouchdbTest1.app/PlugIns    setenv PREBINDING YES    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH PhonegapPouchdbTest1.app/PrivateHeaders    setenv PRODUCT_NAME PhonegapPouchdbTest1    setenv PRODUCT_SETTINGS_PATH /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/PhonegapPouchdbTest1-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT PhonegapPouchdbTest1    setenv PROJECT_DERIVED_FILE_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/DerivedSources    setenv PROJECT_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PROJECT_FILE_PATH /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1.xcodeproj    setenv PROJECT_NAME PhonegapPouchdbTest1    setenv PROJECT_TEMP_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build    setenv PUBLIC_HEADERS_FOLDER_PATH PhonegapPouchdbTest1.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH PhonegapPouchdbTest1.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk    setenv SDK_NAME iphonesimulator4.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH PhonegapPouchdbTest1.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH PhonegapPouchdbTest1.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv SRCROOT /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/SymbolRepositories    setenv SYMROOT /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME PhonegapPouchdbTest1    setenv TARGET_BUILD_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator    setenv TARGET_NAME PhonegapPouchdbTest1    setenv TARGET_TEMP_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build    setenv TEMP_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build    setenv TEMP_FILES_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build    setenv TEMP_FILE_DIR /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build    setenv TEMP_ROOT /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH PhonegapPouchdbTest1.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER stewartleach    setenv USER_APPS_DIR /Users/stewartleach/Applications    setenv USER_LIBRARY_DIR /Users/stewartleach/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH PhonegapPouchdbTest1.app/version.plist    setenv VERSION_INFO_BUILDER stewartleach    setenv VERSION_INFO_FILE PhonegapPouchdbTest1_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:PhonegapPouchdbTest1  PROJECT:PhonegapPouchdbTest1-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME PhonegapPouchdbTest1.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT iphoneos    /bin/sh -c /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/Script-304B58A110DAC018002A0835.sh0#
+
+CProcessInfoPlistFile /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Info.plist PhonegapPouchdbTest1/PhonegapPouchdbTest1-Info.plist
+s400640742.742880
+e400640742.747013
+r1
+xProcessInfoPlistFile
+x/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Info.plist
+xPhonegapPouchdbTest1/PhonegapPouchdbTest1-Info.plist
+lSLF07#2@60"Process PhonegapPouchdbTest1/PhonegapPouchdbTest1-Info.plist400640742#400640742#0(0"0(0#0#123"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/PhonegapPouchdbTest1-Info.plist4328521728#635"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PhonegapPouchdbTest1/PhonegapPouchdbTest1-Info.plist -genpkginfo /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app/Info.plist0#
+
+CProcessPCH /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PhonegapPouchdbTest1-Prefix-cafutouagolvwvdtswpyxfyveivt/PhonegapPouchdbTest1-Prefix.pch.pth PhonegapPouchdbTest1/PhonegapPouchdbTest1-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400640743.371947
+e400640743.562123
+r1
+xProcessPCH
+x/var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PhonegapPouchdbTest1-Prefix-cafutouagolvwvdtswpyxfyveivt/PhonegapPouchdbTest1-Prefix.pch.pth
+xPhonegapPouchdbTest1/PhonegapPouchdbTest1-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@63"Precompile PhonegapPouchdbTest1/PhonegapPouchdbTest1-Prefix.pch400640743#400640743#0(0"0(0#0#123"/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/PhonegapPouchdbTest1-Prefix.pch4328521728#2773"    cd /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-generated-files.hmap -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-own-target-headers.hmap -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-all-target-headers.hmap -iquote /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/PhonegapPouchdbTest1-project-headers.hmap -F/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/usr/local/lib/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/UninstalledProducts/include -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources/i386 -I/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/PhonegapPouchdbTest1.build/Debug-iphonesimulator/PhonegapPouchdbTest1.build/DerivedSources -c /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/PhonegapPouchdbTest1/PhonegapPouchdbTest1-Prefix.pch -o /var/folders/0x/fr5z13y169j8g2prjpfmvxc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PhonegapPouchdbTest1-Prefix-cafutouagolvwvdtswpyxfyveivt/PhonegapPouchdbTest1-Prefix.pch.pth0#
+
+CTouch /Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/build/Debug-iphonesimulator/PhonegapPouchdbTest1.app
+r0
+

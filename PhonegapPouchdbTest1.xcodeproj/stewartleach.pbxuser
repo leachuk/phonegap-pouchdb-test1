@@ -1,0 +1,125 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* PhonegapPouchdbTest1 */ = {
+		activeExec = 0;
+		executables = (
+			5A4FEA1317E072B70069ACE1 /* PhonegapPouchdbTest1 */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 5A4FEA1317E072B70069ACE1 /* PhonegapPouchdbTest1 */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* PhonegapPouchdbTest1 */;
+		codeSenseManager = 5A4FEA9E17E072C10069ACE1 /* Code sense */;
+		executables = (
+			5A4FEA1317E072B70069ACE1 /* PhonegapPouchdbTest1 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1197,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 400640716;
+			PBXWorkspaceStateSaveDate = 400640716;
+		};
+		perUserProjectItems = {
+			5A4FEAB017E149F70069ACE1 /* PBXTextBookmark */ = 5A4FEAB017E149F70069ACE1 /* PBXTextBookmark */;
+			5AFE8EA017E14BE300ABDA26 /* PBXTextBookmark */ = 5AFE8EA017E14BE300ABDA26 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5A4FEA9D17E072C10069ACE1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5A4FEA1317E072B70069ACE1 /* PhonegapPouchdbTest1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PhonegapPouchdbTest1;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5A4FEA9D17E072C10069ACE1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5A4FEA9E17E072C10069ACE1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5A4FEAB017E149F70069ACE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5A4FEAB117E149F70069ACE1 /* index.html */;
+		name = "index.html: 6";
+		rLen = 0;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 1784;
+		vrLoc = 0;
+	};
+	5A4FEAB117E149F70069ACE1 /* index.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = index.html;
+		path = "/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/www/index.html";
+		sourceTree = "<absolute>";
+	};
+	5AFE8EA017E14BE300ABDA26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5AFE8EA117E14BE300ABDA26 /* index.html */;
+		name = "index.html: 6";
+		rLen = 0;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 1784;
+		vrLoc = 0;
+	};
+	5AFE8EA117E14BE300ABDA26 /* index.html */ = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = "/Users/stewartleach/Documents/phonegap-projects/phonegap-pouchdb-test1/www/index.html";
+		sourceTree = "<absolute>";
+	};
+}
