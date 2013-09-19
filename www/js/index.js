@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-var remoteCouch = 'http://192.168.216.157:5984/phonegap-test1';
+var remoteCouch = 'http://192.168.216.161:5984/phonegap-test1';
 var app = {
     // Application Constructor
     initialize: function() {
@@ -48,6 +48,7 @@ var app = {
               }
               console.log("Successfully made new database");
               database = db;
+              /*
               db.post({_id: 'doc2', title: 'Cony Island Baby' }, {}, function (err, response) {
                       if (!err){
                       console.log("created doc: " + response.ok);
@@ -57,7 +58,7 @@ var app = {
                       console.log(err);
                       }
               });
-              
+              */
               if (remoteCouch){
               app.syncToRemotePouchDb(db,remoteCouch);
               console.log('Synced data to couch db');

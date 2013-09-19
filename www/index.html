@@ -33,8 +33,22 @@
                 <p class="event received">Device is Ready</p>
             </div>
         </div>
-        <input id="addButton" type="button" value="add data" />
-        <input id="syncButton" type="button" value="sync data" />
+        <div>
+            <input id="addButton" type="button" value="add data" />
+            <input id="syncButton" type="button" value="sync data" />
+        </div>
+        <div>
+            <h3>Create User</h3>
+            <form id="usercreate" name="usercreate" method="" action="#">
+                name:<input name="name" id="useremail" type="text" value="" />
+                <br />
+                password:<input name="password" id="userpassword" type="text" value="" />
+                <input name="_id "type="hidden" value="org.couchdb.user:test4" />
+                <input name="roles "type="hidden" value="" />
+                <input name="type "type="hidden" value="user" />
+                <input type="submit" value="submit" />
+            </form>
+        </div>
         <!--pouchdb-->
         <script src="http://download.pouchdb.com/pouchdb-nightly.js"></script>
         <!--phonegap-->
@@ -42,6 +56,39 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+        </script>
+        <!--couchdb jquery-->
+        <script src="js/json2.js"></script>
+        <script src="js/sha1.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.couch.js"></script>
+        <script src="js/jquery.dialog.js"></script>
+
+        <script type="text/javascript">
+        var couchdb_host = "http://192.168.216.167:5984";
+        $.couch.urlPrefix = couchdb_host;
+        $("#usercreate").bind("submit", function(evt) {
+            console.log("create user button pressed");
+            $.couch.info({
+                       success: function(data) {
+                       console.log(data);
+                       }
+            });
+                              
+            var userDoc = {
+            _id: "org.couchdb.user:bob",
+            name: "bob"
+            };
+            $.couch.signup(userDoc, "supersecurepassword", {
+                         success: function(data) {
+                         console.log(data);
+                         },
+                         error: function(status) {
+                         console.log(status);
+                         }
+            });
+        return false;
+        });
         </script>
     </body>
 </html>
