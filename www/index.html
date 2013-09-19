@@ -67,8 +67,15 @@
         <script type="text/javascript">
         var couchdb_host = "http://192.168.216.167:5984";
         $.couch.urlPrefix = couchdb_host;
-        $("#usercreate").bind("submit", function(evt) {
+        $("#usercreate").bind("submit", function() {
             console.log("create user button pressed");
+            //nodejs test
+            var email = $(this).find("input[name='name']").val();
+            var password = $(this).find("input[name='password']").val();
+            app.nodeSignupUser(email,password);
+                              
+            //couchdb test
+            /*
             $.couch.info({
                        success: function(data) {
                        console.log(data);
@@ -87,6 +94,7 @@
                          console.log(status);
                          }
             });
+            */
         return false;
         });
         </script>

@@ -16,7 +16,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-var remoteCouch = 'http://192.168.216.161:5984/phonegap-test1';
+var remoteCouch = 'http://192.168.216.167:5984/phonegap-test1';
+var nodejsserver = 'http://192.168.216.167:8888';
 var app = {
     // Application Constructor
     initialize: function() {
@@ -126,6 +127,13 @@ var app = {
         });
         
         //console.log("putData1");
+    },
+    nodeSignupUser: function(email,password){
+        console.log("nodeSignupUser [" + email + "]/[" + password + "]");
+        $.post(nodejsserver + "/signup",{email: email, password: password})
+            .done(function (data){
+                  console.log(data);
+            });
     }
     
 };
