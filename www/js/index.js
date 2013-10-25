@@ -22,6 +22,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        
     },
     // Bind Event Listeners
     //
@@ -128,12 +129,56 @@ var app = {
         
         //console.log("putData1");
     },
+    doesUserExist: function(){
+        if (window.localStorage.getItem("userexists") === null)
+            return false;
+        else
+            return true;
+        
+    },
     nodeSignupUser: function(email,password){
         console.log("nodeSignupUser [" + email + "]/[" + password + "]");
         $.post(nodejsserver + "/signup",{email: email, password: password})
-            .done(function (data){
-                  console.log(data);
-            });
+        .done(function (data){
+              console.log(data);
+        });
+    },
+    nodeSigninUser: function(email,password){
+        //test localstorage for user session
+        //window.localStorage.setItem(email,password);
+        var currentUserPassword = window.localStorage.getItem(email);
+        console.log("localStorage Test. email["+ email +"], password["+ currentUserPassword +"]");
+        
+        console.log("nodeSigninUser [" + email + "]/[" + password + "]");
+        $.post(nodejsserver + "/api/user/signin",{"name": email, "password": password})
+        .done(function (data){
+            console.log(data);
+            if (data.ok === true){ //user login successful on remote db server
+                console.log("Front end: Login Success.");
+                  if (app.doesUserExist() == false){
+                        var userSession = {
+                        'name': email,
+                        'createDate': new Date()
+                        };
+                        window.localStorage.setItem("userexists", JSON.stringify(userSession));
+                  }
+            }
+            else
+                console.log("Front end: Login Fail");
+        });
+    },
+    nodeVerifyUser: function(){
+        
+        console.log("localStorage Verify. email[test4], password["+ this.doesUserExist() +"]");
+        
+        console.log("nodeVerifyUser");
+        userExistsObj = window.localStorage.getItem("userexists");
+        userExistsJSON = JSON.parse(userExistsObj);
+        console.log(userExistsJSON.name);
+        $.get(nodejsserver + "/api/user/verify",{})
+        .done(function (data){
+              console.log(data);
+        });
     }
     
 };

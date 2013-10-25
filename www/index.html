@@ -49,6 +49,21 @@
                 <input type="submit" value="submit" />
             </form>
         </div>
+        <div>
+            <h3>SignIn User</h3>
+            <form id="usersignin" name="usersignin" method="" action="#">
+                name:<input name="name" id="useremail" type="text" value="" />
+                <br />
+                password:<input name="password" id="userpassword" type="text" value="" />
+                <input type="submit" value="signin" />
+            </form>
+        </div>
+        <div>
+            <h3>Verify Current User</h3>
+            <form id="userverify" name="userverify" method="" action="#">
+                <input type="submit" value="verify user" />
+            </form>
+        </div>
         <!--pouchdb-->
         <script src="http://download.pouchdb.com/pouchdb-nightly.js"></script>
         <!--phonegap-->
@@ -95,7 +110,21 @@
                          }
             });
             */
-        return false;
+            return false;
+        });
+        $("#usersignin").bind("submit", function() {
+            console.log("signin user button pressed");
+            //nodejs test
+            var email = $(this).find("input[name='name']").val();
+            var password = $(this).find("input[name='password']").val();
+            app.nodeSigninUser(email,password);
+            return false;
+        });
+        $("#userverify").bind("submit", function() {
+            console.log("verify user button pressed");
+            //nodejs test
+            app.nodeVerifyUser();
+            return false;
         });
         </script>
     </body>
