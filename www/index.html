@@ -17,17 +17,18 @@
     specific language governing permissions and limitations
     under the License.
 -->
-<html>
+<html ng-app="phonecatApp">
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
+        <div class="app" ng-controller="PhonegapPouchdbTest1">
+            <h1>{{phones[0].name}}</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
@@ -36,32 +37,26 @@
         <div>
             <input id="addButton" type="button" value="add data" />
             <input id="syncButton" type="button" value="sync data" />
+            <ul>
+                <li><a href="#home/">home</a></li>
+                <li><a href="#login/">login</a></li>
+                <li><a href="#signup/">sign up</a></li>
+                <li><a href="#userlanding/">user landing</a></li>
+            </ul>
         </div>
-        <div>
-            <h3>Create User</h3>
-            <form id="usercreate" name="usercreate" method="" action="#">
-                name:<input name="name" id="useremail" type="text" value="" />
-                <br />
-                password:<input name="password" id="userpassword" type="text" value="" />
-                <input name="_id "type="hidden" value="org.couchdb.user:test4" />
-                <input name="roles "type="hidden" value="" />
-                <input name="type "type="hidden" value="user" />
-                <input type="submit" value="submit" />
-            </form>
-        </div>
-        <div>
-            <h3>SignIn User</h3>
-            <form id="usersignin" name="usersignin" method="" action="#">
-                name:<input name="name" id="useremail" type="text" value="" />
-                <br />
-                password:<input name="password" id="userpassword" type="text" value="" />
-                <input type="submit" value="signin" />
-            </form>
-        </div>
+
+        <div ng-view></div>
+
         <div>
             <h3>Verify Current User</h3>
             <form id="userverify" name="userverify" method="" action="#">
                 <input type="submit" value="verify user" />
+            </form>
+        </div>
+        <div>
+            <h3>List Database Test</h3>
+            <form id="listdb" name="listdb" method="" action="#">
+                <input type="submit" value="list db" />
             </form>
         </div>
         <!--pouchdb-->
@@ -69,6 +64,10 @@
         <!--phonegap-->
         <script type="text/javascript" src="cordova-2.6.0.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <!--angular js-->
+        <script type="text/javascript" src="js/angular/angular.min.js"></script>
+        <script type="text/javascript" src="js/angular/angular-app-phonegappouchdbtest1.js"></script>
+        
         <script type="text/javascript">
             app.initialize();
         </script>
@@ -76,6 +75,7 @@
         <script src="js/json2.js"></script>
         <script src="js/sha1.js"></script>
         <script src="js/jquery.js"></script>
+        <script src="js/jquery.cookie.js"></script>
         <script src="js/jquery.couch.js"></script>
         <script src="js/jquery.dialog.js"></script>
 
@@ -112,18 +112,17 @@
             */
             return false;
         });
-        $("#usersignin").bind("submit", function() {
-            console.log("signin user button pressed");
-            //nodejs test
-            var email = $(this).find("input[name='name']").val();
-            var password = $(this).find("input[name='password']").val();
-            app.nodeSigninUser(email,password);
-            return false;
-        });
         $("#userverify").bind("submit", function() {
             console.log("verify user button pressed");
             //nodejs test
             app.nodeVerifyUser();
+            return false;
+        });
+        $("#listdb").bind("submit", function() {
+            console.log("list db button pressed");
+            //nodejs test
+            //app.nodeListDbTest();
+            app.nodeAuthSet();
             return false;
         });
         </script>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+          <title>Hello World</title>
+    </head>
+    <body>
+        <div>
+		<form id="usersignin" name="usersignin" method="GET" action="http://192.168.216.167:8888/api/user/authset">
+			name:<input ng-model="useremail" name="name" id="useremail" type="text" value="" />
+			<br />
+			password:<input ng-model="userpassword" name="password" id="userpassword" type="text" value="" />
+			<input type="submit" value="authtest" />
+		</form>
+ 		</div>
+ 		<div>
+		<form id="userverify" name="userverify" method="GET" action="http://192.168.216.167:8888/api/user/verify">
+			<input type="submit" value="verify" />
+		</form>
+ 		</div>
+    </body>
+</html>

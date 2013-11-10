@@ -23,6 +23,10 @@ var app = {
     initialize: function() {
         this.bindEvents();
         
+        if (this.doesUserExist() == true){
+            console.log("User already signed up, redirect to landing page.");
+        }
+        
     },
     // Bind Event Listeners
     //
@@ -154,7 +158,7 @@ var app = {
         .done(function (data){
             console.log(data);
             if (data.ok === true){ //user login successful on remote db server
-                console.log("Front end: Login Success.");
+                  console.log("Front end: Login Success.");
                   if (app.doesUserExist() == false){
                         var userSession = {
                         'name': email,
@@ -162,20 +166,62 @@ var app = {
                         };
                         window.localStorage.setItem("userexists", JSON.stringify(userSession));
                   }
+              
+                window.location.replace("#/userlanding/");
+           
             }
             else
                 console.log("Front end: Login Fail");
+
         });
     },
     nodeVerifyUser: function(){
         
         console.log("localStorage Verify. email[test4], password["+ this.doesUserExist() +"]");
-        
+        //$.cookie("connect.sid","MHrrC6pNJBGyXS_DPXmJK4e3");
         console.log("nodeVerifyUser");
         userExistsObj = window.localStorage.getItem("userexists");
         userExistsJSON = JSON.parse(userExistsObj);
-        console.log(userExistsJSON.name);
+        //console.log(userExistsJSON.name);
+        $.ajax({
+               url: nodejsserver + "/api/user/verify",
+               type: "GET",
+               beforeSend: function (request)
+               {
+               //request.setRequestHeader("blaa", "connect.sid=blaa");
+               },
+               crossDomain:true,
+               xhrFields: {
+                    withCredentials: true
+               }
+               })
+        .done(function (data, status, jqXHR){
+              console.log(data);
+              //console.log(jqXHR.getAllResponseHeaders());
+              //window.location.replace("#/userlanding/");
+        });
+        /*
         $.get(nodejsserver + "/api/user/verify",{})
+        .done(function (data){
+              console.log(data);
+              //console.log($.cookie());
+            //window.location.replace("#/userlanding/");
+        });
+        */
+    },
+    nodeAuthSet: function(){
+        console.log("AuthSet");
+        //$.cookie("connect.sid","MHrrC6pNJBGyXS_DPXmJK4e3");
+        $.get(nodejsserver + "/api/user/authset/testfoo3",{})
+        .done(function (data){
+              console.log(data);
+              //window.location.replace("#/userlanding/");
+        });
+    },
+    nodeListDbTest: function(){
+        console.log("nodeListDbTest");
+        
+        $.get(nodejsserver + "/api/docs/listall/stew$testemail+com",{})
         .done(function (data){
               console.log(data);
         });
